@@ -18,7 +18,9 @@ pod 'NotchButton'
 - iOS 8.0
 
 ## Screenshot
-![Image1](https://user-images.githubusercontent.com/34772312/84573149-acfd2080-add9-11ea-925b-06b148758a8c.png)
+<kbd>
+<img src="https://user-images.githubusercontent.com/34772312/84573149-acfd2080-add9-11ea-925b-06b148758a8c.png" />
+</kbd>
 
 ## Example
 
