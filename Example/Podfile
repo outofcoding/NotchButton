@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NotchButton_Example' do
+  pod 'NotchButton', :path => '../'
+
+  target 'NotchButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
