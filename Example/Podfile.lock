@@ -1,0 +1,16 @@
+PODS:
+  - NotchButton (0.1.0)
+
+DEPENDENCIES:
+  - NotchButton (from `../`)
+
+EXTERNAL SOURCES:
+  NotchButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NotchButton: 4d9121922c4cd1d577d064bad1f36812ce11fbbf
+
+PODFILE CHECKSUM: 4c1c8e8442679ff19871b813d47d2170554e8a38
+
+COCOAPODS: 1.8.4

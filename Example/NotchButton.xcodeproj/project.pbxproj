@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		123F7DA252634CB3B245FBEC /* Pods_NotchButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotchButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2734F65B0D1A7FE0A307F404 /* NotchButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NotchButton.podspec; path = ../NotchButton.podspec; sourceTree = "<group>"; };
-		27FA3A34D9F07D3C109F68EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2734F65B0D1A7FE0A307F404 /* NotchButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NotchButton.podspec; path = ../NotchButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27FA3A34D9F07D3C109F68EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4AC3DED0B4E61437C887C996 /* Pods-NotchButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotchButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-NotchButton_Example/Pods-NotchButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5C6CCAF934F5FA6ACD851462 /* Pods-NotchButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotchButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NotchButton_Tests/Pods-NotchButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NotchButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotchButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		8811078BDD845561DCF04E24 /* Pods_NotchButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotchButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21ADDED32A5049D7E7C2F5D /* Pods-NotchButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotchButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-NotchButton_Tests/Pods-NotchButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BCF3C80B46FEA6BEC419CC31 /* Pods-NotchButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotchButton_Example.release.xcconfig"; path = "Target Support Files/Pods-NotchButton_Example/Pods-NotchButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA7D9E4CE5050088DBC5E14A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA7D9E4CE5050088DBC5E14A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				5C6CCAF934F5FA6ACD851462 /* Pods-NotchButton_Tests.debug.xcconfig */,
 				A21ADDED32A5049D7E7C2F5D /* Pods-NotchButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

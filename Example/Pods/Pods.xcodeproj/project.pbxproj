@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7A939D84EEA75859D89804A73E4BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		22EDD83B96E46AF430AB0CD675678E8D /* NotchButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2766E9E83C7551F1B2C999741F109779 /* NotchButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271F9A5414F2120FDA7BF7AD4EDE45A7 /* Pods-NotchButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D5A43991FB7A686902B48808E3D8B8 /* Pods-NotchButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B8D3260ADF51DEBFA84EECB962FEF5 /* NotchButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3077BB6AF5EE061FD249F871A7C3826 /* NotchButton-dummy.m */; };
+		78BD4058068502E8F72F63D9A4E49E94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7B0B4D3E6917C80C9914DABE1D2FC436 /* Pods-NotchButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED219503A50E7899E99F5563B700B7E /* Pods-NotchButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CFDFC3F148978738EE0478B37B9CFB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8CBCE8C2D86CDDD7ECF8BA727649A356 /* NotchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E6FC0B845478E21ABFC43E98BB809 /* NotchButton.swift */; };
+		A65C06B745BFF4DB3F794D78C9961E2A /* Pods-NotchButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD247E96C75E7C02392214B0419D9AED /* Pods-NotchButton_Example-dummy.m */; };
+		E0A46C942495295900D4D2A6 /* Notchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A46C932495295900D4D2A6 /* Notchable.swift */; };
+		E64DE7F91B70BA5949ABAA9C785A6152 /* Pods-NotchButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F84D3F8B4D38A20985E7345312E7DCD /* Pods-NotchButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C593063E9BB106527F1C79886D2DA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F5CE7A4FD17F4395706B3BD0B2ADB9;
+			remoteInfo = "Pods-NotchButton_Example";
+		};
+		BF5B411022167A0F083E56E8DBDFA086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DCC3D647851CCF4FF4F8044AF3CF4BD;
+			remoteInfo = NotchButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08748277106529E36F313C03D024E537 /* NotchButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NotchButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08BE92F1985BAD75CDEBDDCDC1A3C2D1 /* Pods-NotchButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotchButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		180BFB710057AC81710DEFE26DB976F8 /* NotchButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NotchButton.modulemap; sourceTree = "<group>"; };
+		1ED219503A50E7899E99F5563B700B7E /* Pods-NotchButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotchButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		264597D25DC073780EED1A57155A4135 /* Pods-NotchButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotchButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2766E9E83C7551F1B2C999741F109779 /* NotchButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotchButton-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32FF72FDED55B19CD0D384FECCBBA4D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4D2897FD9E51ED3350348910DEDDD9A8 /* Pods-NotchButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NotchButton_Example.modulemap"; sourceTree = "<group>"; };
+		4D585C7507B602AB428C50D8AE2A4A04 /* NotchButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NotchButton-Info.plist"; sourceTree = "<group>"; };
+		4F0D2521839572BA4F9CDFCA34B8582C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4F84D3F8B4D38A20985E7345312E7DCD /* Pods-NotchButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotchButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		51DE5C409BA926449903A77A5772C5B4 /* Pods-NotchButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotchButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F8E6FC0B845478E21ABFC43E98BB809 /* NotchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotchButton.swift; path = NotchButton/Classes/NotchButton.swift; sourceTree = "<group>"; };
+		736023A21231F666DDF4DCC985FA03DE /* Pods-NotchButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotchButton_Example-Info.plist"; sourceTree = "<group>"; };
+		77B4E0BB38C2C9524F65E4C79F7DD9FD /* Pods_NotchButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotchButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EDF8F5225E8F7E024D7BC18EF99EFE /* Pods-NotchButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotchButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9070568F00BF793B1772F0901953C56A /* Pods-NotchButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotchButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		96E0A77E6500393AB659C943309CB339 /* Pods-NotchButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NotchButton_Tests.modulemap"; sourceTree = "<group>"; };
+		99EB319CDE6260E3D63E2995B82615BA /* Pods-NotchButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotchButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9D5A43991FB7A686902B48808E3D8B8 /* Pods-NotchButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotchButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		C75A99B2CE1FA6DEFF4D8754F991A8DC /* NotchButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotchButton.xcconfig; sourceTree = "<group>"; };
+		C7B0CE1325B2EFC9F7EFD30501752246 /* Pods-NotchButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotchButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D3077BB6AF5EE061FD249F871A7C3826 /* NotchButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotchButton-dummy.m"; sourceTree = "<group>"; };
+		DBEB08B196A4179D5C2E8DA171E2B3A2 /* NotchButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotchButton-prefix.pch"; sourceTree = "<group>"; };
+		DD247E96C75E7C02392214B0419D9AED /* Pods-NotchButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotchButton_Example-dummy.m"; sourceTree = "<group>"; };
+		E0A46C932495295900D4D2A6 /* Notchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Notchable.swift; path = NotchButton/Classes/Notchable.swift; sourceTree = "<group>"; };
+		E1C5A633E1E8C004042EED2A9E9A5C30 /* Pods-NotchButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotchButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F14978FAC7CCB99825AE0DEFA3305233 /* NotchButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotchButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F78B2C0E3719DED47D0CF565AE5AF8 /* Pods-NotchButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotchButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5210EE9917AFC4A6CFFC6DDFA027B1A /* Pods-NotchButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotchButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE99FE2008E4A6C455E81003D8A9750 /* Pods_NotchButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotchButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5B272846F8F51D21188D4AFB464112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BD4058068502E8F72F63D9A4E49E94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC005DD6ECCFDD2AEF6088FA4B3B783E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFDFC3F148978738EE0478B37B9CFB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B532231BB3E808F0313A3F3BC6B19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7A939D84EEA75859D89804A73E4BB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD0D859ECC17DE19BF42752C289E0D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				180BFB710057AC81710DEFE26DB976F8 /* NotchButton.modulemap */,
+				C75A99B2CE1FA6DEFF4D8754F991A8DC /* NotchButton.xcconfig */,
+				D3077BB6AF5EE061FD249F871A7C3826 /* NotchButton-dummy.m */,
+				4D585C7507B602AB428C50D8AE2A4A04 /* NotchButton-Info.plist */,
+				DBEB08B196A4179D5C2E8DA171E2B3A2 /* NotchButton-prefix.pch */,
+				2766E9E83C7551F1B2C999741F109779 /* NotchButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NotchButton";
+			sourceTree = "<group>";
+		};
+		4CCAEDF278182F3E2A7A7342A594BFDF /* NotchButton */ = {
+			isa = PBXGroup;
+			children = (
+				E0A46C932495295900D4D2A6 /* Notchable.swift */,
+				5F8E6FC0B845478E21ABFC43E98BB809 /* NotchButton.swift */,
+				A6CA30EBA9D9CF78C63D4583C06E85FE /* Pod */,
+				2AD0D859ECC17DE19BF42752C289E0D4 /* Support Files */,
+			);
+			name = NotchButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8DFAEFD4AB89F4098737B4C6AD031781 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF8230A8D4911565DC177E8AA4EECE7A /* Pods-NotchButton_Example */,
+				BDEFC01AFAF22A5C0EA1D395258CD101 /* Pods-NotchButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6CA30EBA9D9CF78C63D4583C06E85FE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F0D2521839572BA4F9CDFCA34B8582C /* LICENSE */,
+				08748277106529E36F313C03D024E537 /* NotchButton.podspec */,
+				32FF72FDED55B19CD0D384FECCBBA4D6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BDEFC01AFAF22A5C0EA1D395258CD101 /* Pods-NotchButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96E0A77E6500393AB659C943309CB339 /* Pods-NotchButton_Tests.modulemap */,
+				83EDF8F5225E8F7E024D7BC18EF99EFE /* Pods-NotchButton_Tests-acknowledgements.markdown */,
+				F3F78B2C0E3719DED47D0CF565AE5AF8 /* Pods-NotchButton_Tests-acknowledgements.plist */,
+				4F84D3F8B4D38A20985E7345312E7DCD /* Pods-NotchButton_Tests-dummy.m */,
+				9070568F00BF793B1772F0901953C56A /* Pods-NotchButton_Tests-Info.plist */,
+				1ED219503A50E7899E99F5563B700B7E /* Pods-NotchButton_Tests-umbrella.h */,
+				08BE92F1985BAD75CDEBDDCDC1A3C2D1 /* Pods-NotchButton_Tests.debug.xcconfig */,
+				99EB319CDE6260E3D63E2995B82615BA /* Pods-NotchButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-NotchButton_Tests";
+			path = "Target Support Files/Pods-NotchButton_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3843519032D8C821AD45BF08344574B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAEDF278182F3E2A7A7342A594BFDF /* NotchButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C3843519032D8C821AD45BF08344574B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DC782F64F8D7143B63CF0A11AC43DCCF /* Products */,
+				8DFAEFD4AB89F4098737B4C6AD031781 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8230A8D4911565DC177E8AA4EECE7A /* Pods-NotchButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4D2897FD9E51ED3350348910DEDDD9A8 /* Pods-NotchButton_Example.modulemap */,
+				E1C5A633E1E8C004042EED2A9E9A5C30 /* Pods-NotchButton_Example-acknowledgements.markdown */,
+				264597D25DC073780EED1A57155A4135 /* Pods-NotchButton_Example-acknowledgements.plist */,
+				DD247E96C75E7C02392214B0419D9AED /* Pods-NotchButton_Example-dummy.m */,
+				C7B0CE1325B2EFC9F7EFD30501752246 /* Pods-NotchButton_Example-frameworks.sh */,
+				736023A21231F666DDF4DCC985FA03DE /* Pods-NotchButton_Example-Info.plist */,
+				B9D5A43991FB7A686902B48808E3D8B8 /* Pods-NotchButton_Example-umbrella.h */,
+				F5210EE9917AFC4A6CFFC6DDFA027B1A /* Pods-NotchButton_Example.debug.xcconfig */,
+				51DE5C409BA926449903A77A5772C5B4 /* Pods-NotchButton_Example.release.xcconfig */,
+			);
+			name = "Pods-NotchButton_Example";
+			path = "Target Support Files/Pods-NotchButton_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC782F64F8D7143B63CF0A11AC43DCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14978FAC7CCB99825AE0DEFA3305233 /* NotchButton.framework */,
+				FAE99FE2008E4A6C455E81003D8A9750 /* Pods_NotchButton_Example.framework */,
+				77B4E0BB38C2C9524F65E4C79F7DD9FD /* Pods_NotchButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0548C7AAD6B84FE34954C55CADFC3869 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0B4D3E6917C80C9914DABE1D2FC436 /* Pods-NotchButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2707AC01E7963346BB2668805D284252 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EDD83B96E46AF430AB0CD675678E8D /* NotchButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC6F08746C712555C107A168AA33C1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271F9A5414F2120FDA7BF7AD4EDE45A7 /* Pods-NotchButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DC7E33DC0B34BE98C4F7B37FDF39C64 /* Pods-NotchButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA02B6B85A44294DCDB1FB78907C8BC /* Build configuration list for PBXNativeTarget "Pods-NotchButton_Tests" */;
+			buildPhases = (
+				0548C7AAD6B84FE34954C55CADFC3869 /* Headers */,
+				70BE73AA870F0FC848D75F146B9B2637 /* Sources */,
+				BC005DD6ECCFDD2AEF6088FA4B3B783E /* Frameworks */,
+				A0968AC3731C6FB51F12ABF5DF84382E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EC1505A600197219DC50138BB041BF /* PBXTargetDependency */,
+			);
+			name = "Pods-NotchButton_Tests";
+			productName = "Pods-NotchButton_Tests";
+			productReference = 77B4E0BB38C2C9524F65E4C79F7DD9FD /* Pods_NotchButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DCC3D647851CCF4FF4F8044AF3CF4BD /* NotchButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA519EC4D1D82B4E7F9A54EE52A86719 /* Build configuration list for PBXNativeTarget "NotchButton" */;
+			buildPhases = (
+				2707AC01E7963346BB2668805D284252 /* Headers */,
+				B5A1AEAB4C78D50962C99B15C8FD8ED5 /* Sources */,
+				9D5B272846F8F51D21188D4AFB464112 /* Frameworks */,
+				014C7683A520232C933E6BEA28469800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotchButton;
+			productName = NotchButton;
+			productReference = F14978FAC7CCB99825AE0DEFA3305233 /* NotchButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1F5CE7A4FD17F4395706B3BD0B2ADB9 /* Pods-NotchButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609B392B6ADDB9FD31ED2A0B1B5DB8AF /* Build configuration list for PBXNativeTarget "Pods-NotchButton_Example" */;
+			buildPhases = (
+				BEC6F08746C712555C107A168AA33C1B /* Headers */,
+				BEA80F358BA1EE51F891F4C96E62E9F4 /* Sources */,
+				D2B532231BB3E808F0313A3F3BC6B19B /* Frameworks */,
+				6267AAF421CCE2BF75B33E74A0AFDB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16947359A016A658F3FB31473B9CFCA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-NotchButton_Example";
+			productName = "Pods-NotchButton_Example";
+			productReference = FAE99FE2008E4A6C455E81003D8A9750 /* Pods_NotchButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DC782F64F8D7143B63CF0A11AC43DCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DCC3D647851CCF4FF4F8044AF3CF4BD /* NotchButton */,
+				E1F5CE7A4FD17F4395706B3BD0B2ADB9 /* Pods-NotchButton_Example */,
+				0DC7E33DC0B34BE98C4F7B37FDF39C64 /* Pods-NotchButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014C7683A520232C933E6BEA28469800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6267AAF421CCE2BF75B33E74A0AFDB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0968AC3731C6FB51F12ABF5DF84382E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70BE73AA870F0FC848D75F146B9B2637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DE7F91B70BA5949ABAA9C785A6152 /* Pods-NotchButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A1AEAB4C78D50962C99B15C8FD8ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A46C942495295900D4D2A6 /* Notchable.swift in Sources */,
+				44B8D3260ADF51DEBFA84EECB962FEF5 /* NotchButton-dummy.m in Sources */,
+				8CBCE8C2D86CDDD7ECF8BA727649A356 /* NotchButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA80F358BA1EE51F891F4C96E62E9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65C06B745BFF4DB3F794D78C9961E2A /* Pods-NotchButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16947359A016A658F3FB31473B9CFCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NotchButton;
+			target = 1DCC3D647851CCF4FF4F8044AF3CF4BD /* NotchButton */;
+			targetProxy = BF5B411022167A0F083E56E8DBDFA086 /* PBXContainerItemProxy */;
+		};
+		C4EC1505A600197219DC50138BB041BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NotchButton_Example";
+			target = E1F5CE7A4FD17F4395706B3BD0B2ADB9 /* Pods-NotchButton_Example */;
+			targetProxy = 0C593063E9BB106527F1C79886D2DA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24A2B630F4DAE3B4D26665DC62366973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BE92F1985BAD75CDEBDDCDC1A3C2D1 /* Pods-NotchButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotchButton_Tests/Pods-NotchButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotchButton_Tests/Pods-NotchButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58202211FAE11BDEF8DD5C1323DF2B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75A99B2CE1FA6DEFF4D8754F991A8DC /* NotchButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NotchButton/NotchButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotchButton/NotchButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotchButton/NotchButton.modulemap";
+				PRODUCT_MODULE_NAME = NotchButton;
+				PRODUCT_NAME = NotchButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F80156366A58B5F6C486365785DFD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DE5C409BA926449903A77A5772C5B4 /* Pods-NotchButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotchButton_Example/Pods-NotchButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotchButton_Example/Pods-NotchButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D40FCFE0DF4E275A634702EDF208031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75A99B2CE1FA6DEFF4D8754F991A8DC /* NotchButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NotchButton/NotchButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NotchButton/NotchButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NotchButton/NotchButton.modulemap";
+				PRODUCT_MODULE_NAME = NotchButton;
+				PRODUCT_NAME = NotchButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA0B56B705AEAAC9A19C6EA70633E1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5210EE9917AFC4A6CFFC6DDFA027B1A /* Pods-NotchButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotchButton_Example/Pods-NotchButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotchButton_Example/Pods-NotchButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9AEEC9A43BFE85EA9779684264FF6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99EB319CDE6260E3D63E2995B82615BA /* Pods-NotchButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NotchButton_Tests/Pods-NotchButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NotchButton_Tests/Pods-NotchButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609B392B6ADDB9FD31ED2A0B1B5DB8AF /* Build configuration list for PBXNativeTarget "Pods-NotchButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0B56B705AEAAC9A19C6EA70633E1F9 /* Debug */,
+				6F80156366A58B5F6C486365785DFD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA02B6B85A44294DCDB1FB78907C8BC /* Build configuration list for PBXNativeTarget "Pods-NotchButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A2B630F4DAE3B4D26665DC62366973 /* Debug */,
+				C9AEEC9A43BFE85EA9779684264FF6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA519EC4D1D82B4E7F9A54EE52A86719 /* Build configuration list for PBXNativeTarget "NotchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58202211FAE11BDEF8DD5C1323DF2B4F /* Debug */,
+				8D40FCFE0DF4E275A634702EDF208031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "NotchButton",
+  "version": "0.1.0",
+  "summary": "A short description of NotchButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/outofcoding/NotchButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "outofcoding": "outofcoding@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/outofcoding/NotchButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NotchButton/Classes/**/*"
+}

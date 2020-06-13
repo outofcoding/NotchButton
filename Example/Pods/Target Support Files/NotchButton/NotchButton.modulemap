@@ -1,0 +1,6 @@
+framework module NotchButton {
+  umbrella header "NotchButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
