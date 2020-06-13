@@ -18,9 +18,7 @@ pod 'NotchButton'
 - iOS 8.0
 
 ## Screenshot
-<div style="height: auto; width: auto; border: 1px solid black;">
 ![Image1](https://user-images.githubusercontent.com/34772312/84573149-acfd2080-add9-11ea-925b-06b148758a8c.png)
-</div>
 
 ## Example
 
